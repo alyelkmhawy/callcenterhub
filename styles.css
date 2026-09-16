@@ -66,7 +66,7 @@ h2{font:750 29px/1.15 Manrope,Inter,sans-serif;letter-spacing:-1.1px;margin:7px 
 .lock-icon{color:var(--accent);margin-right:4px}
 .card-description{color:#91a2b7;font-size:12px;line-height:1.65;max-width:580px;position:relative;margin:16px 0 19px}
 .offer-frame-wrap{
-  position:relative;height:165px;border-radius:21px;overflow:hidden;background:#fff;
+  position:relative;height:190px;border-radius:21px;overflow:hidden;background:#fff;
   border:1px solid rgba(255,255,255,.14);box-shadow:0 16px 45px rgba(0,0,0,.28);
 }
 #offerFrame{
@@ -112,6 +112,6 @@ h2{font:750 29px/1.15 Manrope,Inter,sans-serif;letter-spacing:-1.1px;margin:7px 
   .site-header{height:68px}.header-link{display:none}.section{width:min(100% - 22px,1180px)}
   .hero{padding:42px 0 60px;min-height:auto}.hero-copy{padding:0 8px}h1{font-size:43px;letter-spacing:-2.2px}.hero-text{font-size:14px}.mini-stats{gap:16px;flex-wrap:wrap}
   .glass-card{padding:16px;border-radius:23px}.card-top{display:block}.secure-badge{display:inline-block;margin-top:12px}.card-description{font-size:11px}
-  .offer-frame-wrap{height:165px;border-radius:17px}#offerFrame{height:2500px;transform:translateY(-395px)}
+  .offer-frame-wrap{height:190px;border-radius:17px}#offerFrame{height:2500px;transform:translateY(-395px)}
   .resource-grid{grid-template-columns:1fr}.section-heading h2{font-size:30px}.help-banner{width:calc(100% - 22px);padding:25px 21px;display:grid}.site-footer{width:calc(100% - 22px);display:grid;gap:8px}
 }
