@@ -58,3 +58,7 @@ Test the exact offer URL on:
 Confirm that the provider allows iframe embedding and that the crop still exposes the phone/continue and subsequent verification screens correctly.
 
 If the provider changes its page layout, adjust the iframe height/translate values above.
+
+
+## V6 iframe crop
+The offer viewport is intentionally fixed to show only the mobile-number field and CONTINUE button. Content above/below is clipped visually; the cross-origin provider page itself is not modified.
