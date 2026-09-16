@@ -115,3 +115,43 @@ h2{font:750 29px/1.15 Manrope,Inter,sans-serif;letter-spacing:-1.1px;margin:7px 
   .offer-frame-wrap{height:190px;border-radius:17px}#offerFrame{height:2500px;transform:translateY(-395px)}
   .resource-grid{grid-template-columns:1fr}.section-heading h2{font-size:30px}.help-banner{width:calc(100% - 22px);padding:25px 21px;display:grid}.site-footer{width:calc(100% - 22px);display:grid;gap:8px}
 }
+
+
+/* Post-offer informational notice */
+.post-offer-notice{
+  margin-top:14px;
+  padding:16px 18px;
+  border:1px solid rgba(255,255,255,.10);
+  border-radius:18px;
+  background:rgba(255,255,255,.045);
+  box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+.post-offer-notice-title{
+  font-weight:800;
+  font-size:15px;
+  margin-bottom:7px;
+}
+.post-offer-notice-text,
+.post-offer-notice-warning{
+  font-size:13px;
+  line-height:1.65;
+  color:rgba(255,255,255,.78);
+}
+.post-offer-notice-warning{
+  margin-top:7px;
+  color:rgba(255,255,255,.66);
+}
+.post-offer-notice strong{
+  color:#fff;
+}
+@media (max-width:600px){
+  .post-offer-notice{
+    margin-top:12px;
+    padding:14px 15px;
+    border-radius:16px;
+  }
+  .post-offer-notice-text,
+  .post-offer-notice-warning{
+    font-size:12.5px;
+  }
+}
